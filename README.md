@@ -8,15 +8,16 @@ The code above will read data from a file, sort it, and output the sorted values
 
 The code will read all of the data, determine if it is numeric or alphabet data, sort it accordingly, and output the sorted data to STDOUT.
 
-## To Run
+### To Run
 
 **./fileSort -\<flag> ./\<File name>**
 
-## Flags
+### Flags
 
 - \-i: Tells the program to implement insertion sort
 - \-q: Tells the program to implement quick sort
 
+---
 ## Description of algorithms
 
 - **Insertion sort:** for every token A in the dataset, if there is a token B that belongs in front of A, it will swap their values, essentially inserting token A where it needs to go. This process is repeated for every token in the dataset until it is sorted. This algorithm is rather inefficient, operating at (worst case) O(n^2) efficiency. A more detailed explanation of this algorithm can be found here: https://medium.com/@hitherejoe/algorithms-insertion-sort-eec0e245ec42
